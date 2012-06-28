@@ -208,12 +208,12 @@ header nav#sub ul li a:hover {
 */
 
 section#slideshow {
-  width: 100%;
+  width: 81%;
   height: 330px;
   background-color: #FFFFFF;
   padding: 20px 0;
+  margin-left: 115px;
 }
-
 section div#slides-wrapper {
   width:580px;
   padding:10px;
@@ -312,7 +312,7 @@ div[role='main'] {
   width: 980px;
   padding: 40px 0 50px 0;
   margin: 0 auto;
-  background: url(../img/main-bg.png) bottom repeat-x;
+  background: url(../img/main-bg.jpg) repeat;
 }
 
 div[role='main'] section {
@@ -378,6 +378,7 @@ footer {
   margin: 0 auto;
   padding: 30px 0;
   font-size: 14px;
+	background: url(../img/main-bg.jpg) repeat;
 }
 
 footer h4 {
