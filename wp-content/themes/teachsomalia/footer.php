@@ -16,32 +16,36 @@
   </div>
 
   <div id="contact">
-    <h4>Contact Teach Somalia</h4>
+    <h4>Contact Teach Somalia Campaign</h4>
     <p>
-      Teach Somalia<br />
-      6th Floor, Bridge House<br />
-      48-52 Baldwin Street<br />
-      Bristol BS1 1QB<br />
+      Teach Somalia (USS)<br />
+      8 Rock Street<br />
+      Finsbury Park<br />
+      London, N4 2DN<br />
       United Kingdom
     </p>
-
     <p>
-      tel: +44 (0)117 915 000<br />
-      fax: +44 (0)117 915 9630<br />
+      tel: +44 (0)207 845 7610<br />
       email: <a href="mailto:info@teachsomalia.com">info@teachsomalia.com</a>
     </p>
   </div>
 
   <div id="links">
     <ul>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/moxie.jpg" /></a></li>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/lithium.jpg" /></a></li>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/sas.jpg" /></a></li>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/broadvision.jpg" /></a></li>
+      <li><a href="http://unitedforsomalistudents.com/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/uss.jpg" /></a></li>
+      <li><a href="http://www.somalichannel.co.uk/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/somalichannel.jpg" /></a></li>
+      <li><a href="http://universaltv.co/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/gsr.jpg" /></a></li>
+      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/sntv.jpg" /></a></li>
+      <li><a href="http://www.savesom.blogspot.co.uk/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/save.jpg" /></a></li>
+      <li><a href="http://universaltv.co/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/universal.jpg" /></a></li>
+
+      
       <li><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/links-ribbon.png" /></li>
     </ul>
   </div>
-
+  <!-- cidprotv.jpg      royaltv.jpg      
+  gsr.jpg           save.jpg          
+  hctv.jpg                   -->
   <nav>
     <ul>
       <li><a href="#">HOME</a></li>
