@@ -5,7 +5,7 @@
  * Contains the closing of the id=main div and all content after
  *
  * @package WordPress
- * @subpackage TeachSomalia
+ * @subpackage teachsomalia
  */
 ?>
 <footer class="clearfix">
@@ -34,11 +34,11 @@
 
   <div id="links">
     <ul>
-      <li><a href="#"><img src="./img/moxie.jpg" /></a></li>
-      <li><a href="#"><img src="./img/lithium.jpg" /></a></li>
-      <li><a href="#"><img src="./img/sas.jpg" /></a></li>
-      <li><a href="#"><img src="img/broadvision.jpg" /></a></li>
-      <li><img src="img/links-ribbon.png" /></li>
+      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/moxie.jpg" /></a></li>
+      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/lithium.jpg" /></a></li>
+      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/sas.jpg" /></a></li>
+      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/broadvision.jpg" /></a></li>
+      <li><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/links-ribbon.png" /></li>
     </ul>
   </div>
 
@@ -56,16 +56,16 @@
 </div>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<script>window.jQuery || document.write('<script src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/js/libs/jquery-1.7.2.min.js"><\/script>')</script>
 
-<script src="js/plugins.js"></script>
-<script src="js/script.js"></script>
+<script src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/js/plugins.js"></script>
+<script src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/js/script.js"></script>
 <script>
 var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
 g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
 s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
-
+<?php wp_footer(); ?>
 </body>
 </html>

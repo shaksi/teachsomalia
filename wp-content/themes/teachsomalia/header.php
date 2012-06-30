@@ -5,8 +5,7 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Twenty_Eleven
- * @since Twenty Eleven 1.0
+ * @subpackage teachsomalia
  */
 ?>
 <!doctype html>
@@ -47,7 +46,7 @@
   <!--[if lt IE 9]>
   <script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
   <![endif]-->
-	<script src="js/libs/modernizr-2.5.3.min.js"></script>
+	<script src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/js/libs/modernizr-2.5.3.min.js"></script>
   <?php
   	/* We add some JavaScript to pages with the comment form
   	 * to support sites with threaded comments (when in use).
@@ -90,7 +89,7 @@
 
   <section>
     <a href="/" id="logo">
-      <img src="img/logo.png">
+      <img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/logo.png">
       <span class="title">TEACH SOMALIA</span>
       <span class="sub-title">EDUCATING THE YOUTH</span>
     </a>
@@ -110,16 +109,16 @@
   <div id="slides-wrapper">
     <div id="slides">
       <div class="slides_container">
-        <a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="" target="_blank"><img src="img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
+        <a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
         <div class="content-slide"><h2>Something something...</h2><p>Social business is increasingly...</p></div>
-        <a href="http://www.flickr.com/photos/childofwar/2984345060/" title="" target="_blank"><img src="img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
-        <a href="http://www.flickr.com/photos/b-tal/117037943/" title="" target="_blank"><img src="img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
-        <a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="" target="_blank"><img src="img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
+        <a href="http://www.flickr.com/photos/childofwar/2984345060/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
+        <a href="http://www.flickr.com/photos/b-tal/117037943/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
+        <a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
       </div>
-      <a href="#" class="prev"><img src="img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
-      <a href="#" class="next"><img src="img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
+      <a href="#" class="prev"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
+      <a href="#" class="next"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
     </div>
-    <img src="img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
+    <img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
   </div>
 </section>
 
