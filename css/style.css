@@ -307,12 +307,20 @@ section div#slides-wrapper {
   background-position:0 -12px;
 }
 
+/* main content */
+div#content-wrapper {
+  background: url(../img/main-bg.jpg) repeat;
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 /* Main */
 div[role='main'] {
-  width: 980px;
+  width: 940px;
   padding: 40px 0 50px 0;
   margin: 0 auto;
-  background: url(../img/main-bg.jpg) repeat;
+  background: url(../img/footer-bg.png) bottom repeat-x;
 }
 
 div[role='main'] section {
@@ -328,15 +336,15 @@ div[role='main'] h1, div[role='main'] h2, div[role='main'] h3 {
 }
 
 div[role='main'] h1 {
-  font-size: 44px;
+  font-size: 36px;
 }
 
 div[role='main'] h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 div[role='main'] h3 {
-  font-size: 36px;
+  font-size: 26px;
 }
 
 div[role='main'] section ul#video-thumbnails {
@@ -358,7 +366,7 @@ div[role='main'] section ul#video-thumbnails li a {
 
 div[role='main'] aside {
   float: right;
-  width: 360px;
+  width: 340px;
 }
 
 div[role='main'] aside ul#social {
@@ -374,11 +382,10 @@ div[role='main'] aside ul#social li {
 /* Footer */
 
 footer {
-  width: 980px;
+  width: 940px;
   margin: 0 auto;
   padding: 30px 0;
   font-size: 14px;
-	background: url(../img/main-bg.jpg) repeat;
 }
 
 footer h4 {
@@ -398,13 +405,13 @@ footer>div {
 
 footer div#about {
   float: left;
-  width: 300px;
+  width: 280px;
   margin-right: 30px;
 }
 
 footer div#contact {
   float: left;
-  width: 250px;
+  width: 230px;
 }
 
 footer div#links {
