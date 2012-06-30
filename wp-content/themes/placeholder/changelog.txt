@@ -1,0 +1,15 @@
+*** Placeholder Changelog ***
+
+2011.06.22 - version 1.1
+ * includes/theme-options.php - added Mailchimp option in Newsletter
+ * index.php - added Mailchimp form
+
+2011.04.04 - version 1.0.2
+ includes/theme-options.php - Added empty option to $woo_metaboxes array, to prevent warning messages displaying when adding/editing a post.
+
+2011.01.21 - version 1.0.1
+ * index.php - added option to enable/disable RSS
+ * includes/theme-options.php - removed default options in social so they can be disabled. Added enable/disable RSS option.
+	
+2011.01.19 - version 1.0
+ * First release!
