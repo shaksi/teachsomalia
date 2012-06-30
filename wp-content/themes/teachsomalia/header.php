@@ -5,7 +5,8 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage TeachSomalia
+ * @subpackage Twenty_Eleven
+ * @since Twenty Eleven 1.0
  */
 ?>
 <!doctype html>
