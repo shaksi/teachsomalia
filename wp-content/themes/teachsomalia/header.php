@@ -97,11 +97,12 @@
 
   <nav id="sub">
     <ul>
-      <li><a href="#">TORONTO<span>CANADA</span></a></li>
-      <li><a href="#">LONDON<span>ENGLAND</span></a></li>
-      <li><a href="#">PARIS<span>FRANCE</span></a></li>
-      <li><a href="#">ROME<span>ITALY</span></a></li>
-      <li><a href="#">BERLIN<span>GERMANY</span></a></li>
+      <li><a href="#">CANADA<span>OTTOWA</span></a></li>
+      <li><a href="#">CANADA<span>TORONTO</span></a></li>
+      <li><a href="#">KENYA<span>NAIROBI</span></a></li>
+      <li><a href="#">SWEDEN<span>STOCKHOLM</span></a></li>
+      <li><a href="#">UK<span>LONDON</span></a></li>
+      <li><a href="#">USA<span>MINNEAPOLIS</span></a></li>
     </ul>
   </nav>
 </header>
