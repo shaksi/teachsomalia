@@ -14,7 +14,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #EF9352; }
+a { color: #fafaf4; }
 a:visited { color: #EF9352; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -180,7 +180,7 @@ header nav#sub {
 
 header nav#sub ul li {
   float: left;
-  margin: 5px 0 0 40px;
+  margin: 5px 0 0 30px;
 }
 
 header nav#sub ul li a {
@@ -453,6 +453,11 @@ footer nav ul li a:hover {
 footer nav p {
   float: right;
 }
+
+#twitter ul {
+	padding: 0px;
+}
+
 
 /* =============================================================================
    Non-Semantic Helper Classes

@@ -33,14 +33,15 @@ get_header(); ?>
   <aside id="twitter">
     <h3>
       @TeachSomalia
-      <img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/twitter-title.png" />
+      <img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img//twitter-title.png" />
     </h3>
 
-   
+    <?php
+      echo do_shortcode('[twitter-feed mode="hashtag" hashtag="teachsomalia" img=”yes” followbutton="no" hashlinks="no" linktotweet="no" tweetintent="no" divid="twitterfeed"]');
+    ?>
     <ul id="social">
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/facebook.png" /></a></li>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/blog.png" /></a></li>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/twitter.png" /></a></li>
+      <li><a href="https://www.facebook.com/TeachSomaliaCampaign"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img//facebook.png" /></a></li>
+      <li><a href="https://twitter.com/teach_somalia"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img//twitter.png" /></a></li>
     </ul>
   </aside>
 </div>
