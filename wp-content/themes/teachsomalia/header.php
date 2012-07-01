@@ -82,7 +82,7 @@
         <a href="#">JOIN MOVEMENT</a>
       </li>
       <li class="eight">
-        <a href="#">CONTACT</a>
+        <a href="/contact" class="smcf-link">CONTACT</a>
       </li>
     </ul>
   </nav>
