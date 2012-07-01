@@ -73,16 +73,16 @@
       <li class="three"></li>
       <li class="four"></li>
       <li class="five">
-        <a href="#">HOME</a>
+        <a href="/">HOME</a>
       </li>
       <li class="six">
-        <a href="#">CAMPAIGN</a>
+        <a name="Campaign">CAMPAIGN</a>
       </li>
       <li class="seven">
-        <a href="#">JOIN MOVEMENT</a>
+        <a name="JoinMovement">JOIN MOVEMENT</a>
       </li>
       <li class="eight">
-        <a href="/contact" class="smcf-link">CONTACT</a>
+        <a href="/contact" class="smcf-link" name="Contact">CONTACT</a>
       </li>
     </ul>
   </nav>
@@ -97,12 +97,12 @@
 
   <nav id="sub">
     <ul>
-      <li><a href="#">CANADA<span>OTTOWA</span></a></li>
-      <li><a href="#">CANADA<span>TORONTO</span></a></li>
-      <li><a href="#">KENYA<span>NAIROBI</span></a></li>
-      <li><a href="#">SWEDEN<span>STOCKHOLM</span></a></li>
-      <li><a href="#">UK<span>LONDON</span></a></li>
-      <li><a href="#">USA<span>MINNEAPOLIS</span></a></li>
+      <li><a name="Ottawa">CANADA<span>OTTAWA</span></a></li>
+      <li><a name="Toronto">CANADA<span>TORONTO</span></a></li>
+      <li><a name="Nairobi">KENYA<span>NAIROBI</span></a></li>
+      <li><a name="Stockholm">SWEDEN<span>STOCKHOLM</span></a></li>
+      <li><a name="London">UK<span>LONDON</span></a></li>
+      <li><a name="Minneapolis">USA<span>MINNEAPOLIS</span></a></li>
     </ul>
   </nav>
 </header>
@@ -110,12 +110,12 @@
   <div id="slides-wrapper">
     <div id="slides">
       <div class="slides_container">
-        <?php  echo strip_tags( do_shortcode('[gallery category="global" size="large" itemtag="div" icontag="span" captiontag="p" style="no"]'),"<a><img>");?>
+        <?php  echo strip_tags( do_shortcode('[gallery category="global" size="original" itemtag="div" icontag="span" captiontag="p" style="no"]'),"<a><img>");?>
       </div>
       <a href="#" class="prev"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
       <a href="#" class="next"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>
     </div>
-    <img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/example-frame.png" width="739" height="341" alt="Example Frame" id="frame">
+    <!--<img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/example-frame.png" width="970" height="341" alt="Example Frame" id="frame">-->
   </div>
 </section>
 

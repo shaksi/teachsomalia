@@ -9,14 +9,9 @@
  */
 ?>
 <footer class="clearfix">
-  <div id="about">
-    <h4>About Teach Somalia</h4>
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  </div>
-
+  
   <div id="contact">
-    <h4>Contact Teach Somalia Campaign</h4>
+    <h4>Contact Campaign HQ</h4>
     <p>
       Teach Somalia (USS)<br />
       8 Rock Street<br />
@@ -30,26 +25,16 @@
     </p>
   </div>
 
-  <div id="links">
-    <ul>
-      <li><a href="http://unitedforsomalistudents.com/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/uss.jpg" /></a></li>
-      <li><a href="http://www.somalichannel.co.uk/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/somalichannel.jpg" /></a></li>
-      <li><a href="http://universaltv.co/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/gsr.jpg" /></a></li>
-      <li><a href="#"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/sntv.jpg" /></a></li>
-      <li><a href="http://www.savesom.blogspot.co.uk/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/save.jpg" /></a></li>
-      <li><a href="http://universaltv.co/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/partners/universal.jpg" /></a></li>
-
-      
-      <li><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/links-ribbon.png" /></li>
-    </ul>
+  <div id="logos">
+    <img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/logosv.jpg" />
   </div>
-  <!-- cidprotv.jpg royaltv.jpg gsr.jpg save.jpg hctv.jpg -->
   <nav>
     <ul>
       <li><a href="#">HOME</a></li>
       <li><a href="#">ABOUT US</a></li>
       <li><a href="#">OUR WORK</a></li>
-      <li><a href="#">CONTACT</a></li>
+      <li><a href="/contact" class="smcf-link">CONTACT</a></li>
+      
     </ul>
 
     <p>Copyright United for Teach Somalia 2012. All rights reserved.</p>

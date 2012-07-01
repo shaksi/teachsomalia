@@ -210,12 +210,12 @@ header nav#sub ul li a:hover {
 section#slideshow {
   width: 81%;
   height: 330px;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
   padding: 20px 0;
-  margin-left: 115px;
+  margin-left: 160px;
 }
 section div#slides-wrapper {
-  width:580px;
+  width:900px;
   padding:10px;
   margin:0 auto;
   position:relative;
@@ -243,21 +243,21 @@ section div#slides-wrapper {
 }
 
 .slides_container {
-  width:570px;
+  width:890px;
   overflow:hidden;
   position:relative;
   display:none;
 }
 
 .slides_container a {
-  width:570px;
+  width:890px;
   height:270px;
   display:block;
 }
 
 .slides_container div.content-slide {
   background: url(../img/bg.jpg) repeat;
-  width:530px;
+  width:850px;
   height:230px;
   padding: 20px;
   display:block;
@@ -278,7 +278,7 @@ section div#slides-wrapper {
 }
 
 #slides .next {
-  left:585px;
+  left:905px;
 }
 
 .pagination {
@@ -417,6 +417,11 @@ footer div#contact {
 footer div#links {
   float: right;
   width: 390px;
+}
+
+footer div#logos {
+  float: right;
+  width: 650px;
 }
 
 footer div#links ul {
