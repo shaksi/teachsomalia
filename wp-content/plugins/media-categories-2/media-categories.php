@@ -236,9 +236,9 @@ class Media_Categories {
             'size'       => 'thumbnail',
             'include'    => '',
             'exclude'    => '',
+            'style'      => "yes",
             $mc_tax      => ''   
         ), $attr));
-        
         $id = intval($id);
         if ( 'RAND' == $order )
             $orderby = 'none';
@@ -286,7 +286,7 @@ class Media_Categories {
         $selector = "gallery-{$instance}";
 
         $gallery_style = $gallery_div = '';
-        if ( apply_filters( 'use_default_gallery_style', true ) )
+        if ( apply_filters( 'use_default_gallery_style', true ) && $itemtag =="no" )
             $gallery_style = "
             <style type='text/css'>
                 #{$selector} {

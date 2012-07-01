@@ -110,11 +110,7 @@
   <div id="slides-wrapper">
     <div id="slides">
       <div class="slides_container">
-        <a href="http://www.flickr.com/photos/stephangeyer/3020487807/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-2.jpg" width="570" height="270" alt="Slide 2"></a>
-        <div class="content-slide"><h2>Something something...</h2><p>Social business is increasingly...</p></div>
-        <a href="http://www.flickr.com/photos/childofwar/2984345060/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-3.jpg" width="570" height="270" alt="Slide 3"></a>
-        <a href="http://www.flickr.com/photos/b-tal/117037943/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-4.jpg" width="570" height="270" alt="Slide 4"></a>
-        <a href="http://www.flickr.com/photos/bu7amd/3447416780/" title="" target="_blank"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/slide-5.jpg" width="570" height="270" alt="Slide 5"></a>
+        <?php  echo strip_tags( do_shortcode('[gallery category="global" size="large" itemtag="div" icontag="span" captiontag="p" style="no"]'),"<a><img>");?>
       </div>
       <a href="#" class="prev"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/arrow-prev.png" width="24" height="43" alt="Arrow Prev"></a>
       <a href="#" class="next"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/arrow-next.png" width="24" height="43" alt="Arrow Next"></a>

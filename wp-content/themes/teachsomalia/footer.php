@@ -43,9 +43,7 @@
       <li><img src="<?php echo CHILD_TEMPLATE_DIRECTORY; ?>/img/links-ribbon.png" /></li>
     </ul>
   </div>
-  <!-- cidprotv.jpg      royaltv.jpg      
-  gsr.jpg           save.jpg          
-  hctv.jpg                   -->
+  <!-- cidprotv.jpg royaltv.jpg gsr.jpg save.jpg hctv.jpg -->
   <nav>
     <ul>
       <li><a href="#">HOME</a></li>
