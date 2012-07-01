@@ -13,16 +13,9 @@
   <div id="contact">
     <h4>Contact Campaign HQ</h4>
     <p>
-      Teach Somalia (USS)<br />
-      8 Rock Street<br />
-      Finsbury Park<br />
-      London, N4 2DN<br />
-      United Kingdom
-    </p>
-    <p>
-      tel: +44 (0)207 845 7610<br />
       email: <a href="mailto:info@teachsomalia.com">info@teachsomalia.com</a>
     </p>
+    <p><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/join_campaign.png" /></p>
   </div>
 
   <div id="logos">
@@ -37,7 +30,7 @@
       
     </ul>
 
-    <p>Copyright United for Teach Somalia 2012. All rights reserved.</p>
+    <p>All rights reserved by the respectful owners. Teach Somalia 2012.</p>
   </nav>
 </footer>
 </div>

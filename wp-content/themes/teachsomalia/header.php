@@ -99,7 +99,6 @@
     <ul>
       <li><a name="Ottawa">CANADA<span>OTTAWA</span></a></li>
       <li><a name="Toronto">CANADA<span>TORONTO</span></a></li>
-      <li><a name="Nairobi">KENYA<span>NAIROBI</span></a></li>
       <li><a name="Stockholm">SWEDEN<span>STOCKHOLM</span></a></li>
       <li><a name="London">UK<span>LONDON</span></a></li>
       <li><a name="Minneapolis">USA<span>MINNEAPOLIS</span></a></li>

@@ -14,7 +14,7 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 ::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
 ::selection { background: #fe57a1; color: #fff; text-shadow: none; }
 
-a { color: #fafaf4; }
+a { color: #908C4C; }
 a:visited { color: #EF9352; }
 a:hover { color: #06e; }
 a:focus { outline: thin dotted; }
@@ -377,6 +377,10 @@ div[role='main'] aside ul#social {
 div[role='main'] aside ul#social li {
   float: left;
   margin: 0 10px 0 0;
+}
+
+article footer {
+	padding: 0px 0;
 }
 
 /* Footer */
