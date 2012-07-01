@@ -7,7 +7,9 @@ $(document).ready(function(){
     preloadImage: 'img/loading.gif',
     play: 5000,
     pause: 2500,
-    hoverPause: true
+    hoverPause: true,
+		randomize: true,
+		bigTarget: true,
   });
   
 });
