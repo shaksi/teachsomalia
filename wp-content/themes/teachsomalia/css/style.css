@@ -208,11 +208,11 @@ header nav#sub ul li a:hover {
 */
 
 section#slideshow {
-  width: 76%;
+  /*width: 76%;*/
   height: 330px;
   /*background-color: #FFFFFF;*/
   padding: 20px 0;
-  margin-left: 154px;
+  margin-left: 1.5%;
 }
 section div#slides-wrapper {
   width:900px;
