@@ -426,6 +426,7 @@ footer div#links {
 footer div#logos {
   float: right;
   width: 650px;
+  margin-top: 10px;
 }
 
 footer div#links ul {

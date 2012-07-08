@@ -71,15 +71,17 @@
       <li class="one"></li>
       <li class="two"></li>
       <li class="three"></li>
-      <li class="four"></li>
-      <li class="five">
+      <li class="four">
         <a href="/">HOME</a>
       </li>
+      <li class="five">
+        <a href="/campaign" name="Campaign">CAMPAIGN</a>
+      </li>
       <li class="six">
-        <a name="Campaign">CAMPAIGN</a>
+        <a href="/about" name="Campaign">ABOUT US</a>
       </li>
       <li class="seven">
-        <a name="JoinMovement">JOIN MOVEMENT</a>
+        <a href="http://teachsomaliaglobal.wufoo.com/forms/teach-somalia-volunteer-form/" name="JoinMovement">JOIN MOVEMENT</a>
       </li>
       <li class="eight">
         <a href="/contact" class="smcf-link" name="Contact">CONTACT</a>
@@ -97,11 +99,11 @@
 
   <nav id="sub">
     <ul>
-      <li><a name="Ottawa">CANADA<span>OTTAWA</span></a></li>
-      <li><a name="Toronto">CANADA<span>TORONTO</span></a></li>
-      <li><a name="Stockholm">SWEDEN<span>STOCKHOLM</span></a></li>
-      <li><a name="London">UK<span>LONDON</span></a></li>
-      <li><a name="Minneapolis">USA<span>MINNEAPOLIS</span></a></li>
+      <li><a href="/ottawa" name="Ottawa">CANADA<span>OTTAWA</span></a></li>
+      <li><a href="/toronto" name="Toronto">CANADA<span>TORONTO</span></a></li>
+      <li><a href="/stockholm" name="Stockholm">SWEDEN<span>STOCKHOLM</span></a></li>
+      <li><a href="/london" name="London">UK<span>LONDON</span></a></li>
+      <li><a href="/minneapolis" name="Minneapolis">USA<span>MINNEAPOLIS</span></a></li>
     </ul>
   </nav>
 </header>
