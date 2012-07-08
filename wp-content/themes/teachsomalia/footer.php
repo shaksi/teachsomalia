@@ -9,12 +9,7 @@
  */
 ?>
 <footer class="clearfix">
-  
   <div id="contact">
-    <h4>Contact Campaign HQ</h4>
-    <p>
-      email: <a href="mailto:info@teachsomalia.com">info@teachsomalia.com</a>
-    </p>
     <p><a href="http://teachsomaliaglobal.wufoo.com/forms/teach-somalia-volunteer-form/"><img src="<?php echo CHILD_TEMPLATE_DIRECTORY ?>/img/join_campaign.png" /></a></p>
   </div>
 
